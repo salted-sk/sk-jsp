@@ -1,0 +1,892 @@
+@media screen and (max-width: 2800px) {
+
+    .edit-modal-content ul li {
+        line-height: 55px;
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 30px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 70px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        width: 35%;
+        margin-top: 30px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        margin-top: 30px;
+    }
+
+    .petroleum-content {
+        margin-top: 170px;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .add-goods-detail h2, .add-detail-list p {
+        height: 55px;
+        line-height: 55px;
+    }
+
+    .add-detail-list p, .add-goods-detail h2, .add-detail-list p, .index-content .remind {
+        font-size: 16px;
+    }
+
+    .add-detail-list .wrap .goods-info li, .add-detail-list .wrap .goods-attribute, .add-detail-list .wrap .goods-list .goods-list-text span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+
+    .edit-modal-content ul li {
+        line-height: 55px;
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 30px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 70px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        margin-top: 20px;
+    }
+
+    .petroleum-content {
+        margin-top: 160px;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .add-detail-list p, .add-goods-detail h2, .add-detail-list p, .index-content .remind {
+        font-size: 15px;
+    }
+
+    .add-detail-list .wrap .goods-info li, .add-detail-list .wrap .goods-attribute, .add-detail-list .wrap .goods-list .goods-list-text span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+
+    .edit-modal-content ul li {
+        line-height: 55px;
+        font-size: 14px;
+        height: 55px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 30px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 50px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        margin-top: 20px;
+    }
+
+    .petroleum-content {
+        margin-top: 140px;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .add-goods-detail h2, .add-detail-list p {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+
+    .edit-modal-content ul li {
+        line-height: 50px;
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 30px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        width: 60%;
+    }
+
+    .petroleum-content {
+        margin-top: 120px;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .add-goods-detail h2, .add-detail-list p {
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .add-detail-list p, .add-goods-detail h2, .add-detail-list p, .index-content .remind {
+        font-size: 14px;
+    }
+
+    .add-detail-list .wrap .goods-info li, .add-detail-list .wrap .goods-attribute, .add-detail-list .wrap .goods-list .goods-list-text span {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    .edit-modal-content ul li {
+        line-height: 40px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 40px;
+        margin-top: 17px;
+        color: #999999;
+        line-height: 40px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 15px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        width: 55%;
+        padding-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .petroleum-content {
+        margin-top: 100px;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .add-goods-detail h2, .add-detail-list p {
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .add-detail-list p, .add-goods-detail h2, .add-detail-list p, .index-content .remind {
+        font-size: 13px;
+    }
+
+    .add-detail-list .wrap .goods-info li, .add-detail-list .wrap .goods-attribute, .add-detail-list .wrap .goods-list .goods-list-text span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .edit-modal-content ul li {
+        line-height: 40px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 30px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        padding-bottom: 3%;
+        width: 60%;
+    }
+
+    .petroleum-content {
+        margin-top: 90px;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .add-goods-detail h2, .add-detail-list p {
+        height: 45px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+
+    .edit-modal-content ul li {
+        line-height: 40px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 20px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        padding-bottom: 3%;
+    }
+
+    .petroleum-content .petroleum-right form {
+        width: 60%;
+    }
+
+    .petroleum-content {
+        margin-top: 70px;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 30px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .add-goods-detail h2, .add-detail-list p {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .edit-modal-content ul li {
+        line-height: 40px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .petroleum-content .petroleum-right form input {
+        width: 90%;
+        display: inline-block;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    .petroleum-content .petroleum-right form {
+        padding-bottom: 0;
+        width: 60%;
+    }
+
+    .petroleum-content .petroleum-right {
+        margin-top: 20px;
+    }
+
+    .petroleum-content .petroleum-right form input.submit {
+        margin-top: 0;
+    }
+
+    .petroleum-content .petroleum-right form .login-text {
+        line-height: 20px;
+    }
+
+    .petroleum-content {
+        margin-top: 60px;
+    }
+
+    .petroleum-content .petroleum-right form h1 {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .add-goods-detail h2, .add-detail-list p {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login {
+        background: #fff;
+    }
+
+    .login .login-content .login-left {
+        display: none;
+    }
+
+    .login .login-content-wrap {
+        background: #fff;
+        top: -70px;
+    }
+
+    .login .login-content .login-right .bg-img {
+        display: none;
+    }
+
+    .login .login-content .login-right {
+        left: 0;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        /*margin-top: 10px;*/
+    }
+}
+
+@media (min-width: 768px) {
+    .login .login-content-wrap {
+        top: 50px;
+    }
+
+    .login .login-content .login-right .user-login {
+        margin-left: 9.5%;
+        width: 50%;
+
+    }
+
+    .login .login-content .login-right .user-login h1 {
+        line-height: 35px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .login .login-content .login-right .bg-img {
+        width: 66%;
+        margin-left: 2.5%;
+        margin-top: -10px;
+    }
+
+    .login .login-content .login-right .user-login input::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 25px;
+        color: #999;
+        padding-left: 11%;
+    }
+
+    .login .login-content .login-right .user-login input.use-name {
+        /*margin-top: 0;*/
+        margin-top: 15px;
+    }
+
+    .login .login-content .login-right .user-login input.use-password {
+        margin-top: 10px;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        font-size: 12px;
+        color: #999999;
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login .login-text label {
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login input {
+        -webkit-background-size: 8% 78%;
+        background-size: 8% 78%;
+    }
+
+    .login .login-content .login-left .fr {
+        /*display: none;*/
+    }
+
+    .login .login-content .login-left .fr .fl-top {
+        height: 51px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    .login .login-content-wrap {
+        top: 60px;
+    }
+
+    .login .login-content .login-right .user-login {
+        margin-top: 10px;
+        padding-bottom: 6px;
+    }
+
+    .login .login-content .login-right .user-login h1 {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .login .login-content .login-right .bg-img {
+
+    }
+
+    .login .login-content .login-right .user-login input::-webkit-input-placeholder {
+
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 30px;
+    }
+
+    .login .login-content .login-right .user-login input.use-name {
+        margin-top: 20px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login input.use-password {
+        margin-top: 12px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .login .login-content .login-right .user-login .login-text label {
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login input {
+        -webkit-background-size: 8% 78%;
+        background-size: 8% 78%;
+    }
+
+    .login .login-content .login-left .fr .fl-top {
+        height: auto;
+        overflow: auto;
+    }
+
+}
+
+@media (min-width: 1008px) {
+    .login .login-content .login-right .user-login {
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .login .login-content .login-right .user-login h1 {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 34px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .login .login-content-wrap {
+        top: 120px;
+    }
+
+    .login .login-content .login-right .user-login {
+        padding-bottom: 20px;
+        width: 45%;
+        margin-top: 25px;
+    }
+
+    .login .login-content .login-right .user-login h1 {
+        line-height: 45px;
+        height: 45px;
+    }
+
+    .login .login-content .login-right .bg-img {
+        width: 60.5%;
+    }
+
+    .login .login-content .login-right .user-login input::-webkit-input-placeholder {
+
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 35px;
+    }
+
+    .login .login-content .login-right .user-login input.use-name {
+        margin-top: 30px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login input.use-password {
+        margin-top: 15px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        line-height: 14px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .login .login-content .login-right .user-login .login-text label {
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login input {
+        -webkit-background-size: 8% 78%;
+        background-size: 8% 78%;
+    }
+
+    .login .login-content .login-left .fr .fl-top {
+        height: auto;
+        font-size: 12px;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1366px) {
+    .login h2 {
+        font-size: 15px;
+        top: 15px;
+    }
+
+    .login .login-content-wrap {
+        top: 120px;
+    }
+
+    .login .login-content .login-right .user-login {
+        padding-bottom: 25px;
+        width: 45%;
+        margin-top: 28px;
+    }
+
+    .login .login-content .login-right .user-login h1 {
+
+        line-height: 50px;
+        height: 50px;
+    }
+
+    .login .login-content .login-right .bg-img {
+        width: 60.5%;
+    }
+
+    .login .login-content .login-right .user-login input::-webkit-input-placeholder {
+
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 38px;
+    }
+
+    .login .login-content .login-right .user-login input.use-name {
+        margin-top: 30px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login input.use-password {
+        margin-top: 15px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        line-height: 23px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .login .login-content .login-right .user-login .login-text label {
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login input {
+        -webkit-background-size: 8% 78%;
+        background-size: 8% 78%;
+    }
+
+    .login .login-content .login-left .fr .fl-top {
+        height: auto;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .login h2 {
+        font-size: 18px;
+        top: 18px;
+    }
+
+    .login .login-content-wrap {
+        top: 160px;
+    }
+
+    .login .login-content .login-right .user-login {
+        padding-bottom: 25px;
+        width: 45%;
+        margin-top: 28px;
+    }
+
+    .login .login-content .login-right .user-login h1 {
+
+        line-height: 55px;
+        height: 55px;
+    }
+
+    .login .login-content .login-right .bg-img {
+        width: 60.5%;
+    }
+
+    .login .login-content .login-right .user-login input::-webkit-input-placeholder {
+
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 47px;
+    }
+
+    .login .login-content .login-right .user-login input.use-name {
+        margin-top: 40px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login input.use-password {
+        margin-top: 20px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .login .login-content .login-right .user-login .login-text label {
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login input {
+        -webkit-background-size: 8% 78%;
+        background-size: 8% 78%;
+    }
+
+    .login .login-content .login-left .fr .fl-top {
+        height: auto;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .login h2 {
+        font-size: 18px;
+        top: 18px;
+    }
+
+    .login .login-content-wrap {
+        top: 160px;
+    }
+
+    .login .login-content .login-right .user-login {
+        padding-bottom: 40px;
+        width: 45%;
+        margin-top: 35px;
+    }
+
+    .login .login-content .login-right .user-login h1 {
+
+        line-height: 63px;
+        height: 63px;
+    }
+
+    .login .login-content .login-right .bg-img {
+        width: 60.5%;
+    }
+
+    .login .login-content .login-right .user-login input::-webkit-input-placeholder {
+
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 50px;
+    }
+
+    .login .login-content .login-right .user-login input.use-name {
+        margin-top: 40px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login input.use-password {
+        margin-top: 20px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        line-height: 25px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .login .login-content .login-right .user-login .login-text label {
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login input {
+        -webkit-background-size: 8% 78%;
+        background-size: 8% 78%;
+    }
+
+    .login .login-content .login-left .fr .fl-top {
+        height: auto;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    .login h2 {
+        font-size: 16px;
+        top: 19px;
+    }
+
+    .login .login-content-wrap {
+        top: 200px;
+    }
+
+    .login .login-content .login-right .user-login {
+        padding-bottom: 30px;
+        width: 45%;
+        margin-top: 40px;
+    }
+
+    .login .login-content .login-right .user-login h1 {
+        line-height: 60px;
+        height: 60px;
+    }
+
+    .login .login-content .login-right .bg-img {
+        width: 60.5%;
+    }
+
+    .login .login-content .login-right .user-login input::-webkit-input-placeholder {
+
+    }
+
+    .login .login-content .login-right .user-login input {
+        line-height: 55px;
+    }
+
+    .login .login-content .login-right .user-login input.use-name {
+        margin-top: 45px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login input.use-password {
+        margin-top: 20px;
+        background-position: 3% center;
+    }
+
+    .login .login-content .login-right .user-login .login-text {
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .login .login-content .login-right .user-login .login-text label {
+        font-weight: normal;
+    }
+
+    .login .login-content .login-right .user-login input {
+        -webkit-background-size: 8% 78%;
+        background-size: 8% 78%;
+    }
+
+    .login .login-content .login-left .fr .fl-top {
+        height: auto;
+        overflow: auto;
+    }
+}

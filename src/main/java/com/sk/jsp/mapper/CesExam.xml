@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sk.jsp.dao.CesExamDao">
+
+    <resultMap type="com.sk.jsp.entity.CesExam" id="CesExamMap">
+        <result property="id" column="ID" jdbcType="VARCHAR"/>
+        <result property="code" column="CODE" jdbcType="VARCHAR"/>
+        <result property="name" column="NAME" jdbcType="VARCHAR"/>
+        <result property="paperId" column="PAPER_ID" jdbcType="VARCHAR"/>
+        <result property="standardId" column="STANDARD_ID" jdbcType="VARCHAR"/>
+        <result property="studyYearId" column="STUDY_YEAR_ID" jdbcType="VARCHAR"/>
+        <result property="xq" column="XQ" jdbcType="VARCHAR"/>
+        <result property="desp" column="DESP" jdbcType="VARCHAR"/>
+        <result property="status" column="STATUS" jdbcType="VARCHAR"/>
+        <result property="deleted" column="DELETED" jdbcType="VARCHAR"/>
+        <result property="createTime" column="CREATE_TIME" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="UPDATE_TIME" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <select id="getExamList" resultType="java.util.Map">
+        select t.id   as "id",
+        t.code   as "code",
+        t.name   as "name",
+        t1.name  as "paperName",
+        t2.name  as "standardName",
+        t3.name  as "xnName",
+        t.xq     as "xq",
+        t.desp   as "desp",
+        t.status as "status"
+        from ces_exam t
+        left join ces_paper t1 on t1.id = t.paper_id
+        left join ces_standard t2 on t2.id = t.standard_id
+        left join ${bmsJdbcName}.bms_study_year t3 on t3.id = t.study_year_id
+        <where>
+            1 > 0
+            <if test="exam.name != null and exam.name !=''">
+                and (
+                t.name like CONCAT(CONCAT('%',#{exam.name}),'%') or
+                t.code like CONCAT(CONCAT('%',#{exam.name}),'%')
+                )
+            </if>
+            <if test="exam.purpose != null and exam.purpose !=''">
+                and t.purpose = #{exam.purpose}
+            </if>
+            and t.deleted = 0
+        </where>
+        order by t.create_time desc
+    </select>
+
+</mapper>

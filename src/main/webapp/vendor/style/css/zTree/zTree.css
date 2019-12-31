@@ -1,0 +1,25 @@
+.ztree li span.button.switch.level0 {visibility:hidden; width:1px;}
+.ztree li ul.level0 {padding:0; background:none;}
+html,body{
+  height: 100%;
+}
+body{
+  background: #F5F5F5!important;
+  padding: 20px!important;;
+}
+.rowbox{
+  background: white;
+  height: 100%;
+  padding-left: 20px;
+  border-top: 4px solid #e7eaec;
+}
+.red {
+  color: #dd5a43 !important;
+}
+
+.blue {
+  color: #478fca !important;
+}
+.green {
+  color: #69aa46 !important;
+}

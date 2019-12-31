@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, pre, form, fieldset, p, label, table, th, tr, td, object, select, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑", sans-serif;
+    font-weight: normal;
+    height: 100%;
+}
+
+/*letter-spacing是设置字和字之间的距离*/
+fieldset, img, a img, a:link img, a:visited img {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    list-style: none
+}
+
+h1, h2, h4, h5 {
+    font-size: 100%;
+    vertical-align: central;
+    font-weight: normal
+}
+
+a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+    clear: both;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+img {
+    border: 0;
+    width: 100%;
+}
+
+input[type=button] {
+    cursor: pointer;
+}

@@ -1,0 +1,602 @@
+.index-header {
+    width: 100%;
+    margin-top: 30px;
+    clear: both;
+}
+
+.index-header .wrap {
+    width: 90%;
+    margin: 0 auto;
+    clear: both;
+}
+
+.index-header .wrap .img {
+    width: 30%;
+    margin: 0;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.index-header .wrap b {
+    position: absolute;
+    text-align: center;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 29px;
+    right: 9%;
+    bottom: 32%;
+}
+
+.index-header .wrap b.order {
+    background: #3f8add;
+}
+
+.index-header .wrap b.search {
+    background: #606cd8;
+}
+
+.index-header .wrap b.list {
+    background: #3fba52;
+}
+
+.index-header .wrap .img:nth-child(2) {
+    margin: 0 5%;
+}
+
+.index-content {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.index-content .remind {
+    color: #3f8add;
+    padding-left: 2%;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.index-content ul li {
+    line-height: 50px;
+    padding: 0 5%;
+    font-size: 16px;
+}
+
+.index-content ul li:nth-child(2n) {
+    background: #f0f0f0
+}
+
+.index-content ul li p {
+    display: inline-block;
+    color: #323232;
+    margin-left: 2%;
+    min-width: 500px;
+}
+
+.index-content ul li p span {
+    color: #62ca7b;
+}
+
+.index-content ul li span {
+    display: inline-block;
+    color: #989898;
+}
+
+.index-content ul li b {
+    font-weight: normal;
+    float: right;
+    width: 90px;
+    height: 30px;
+    background-color: #4b8abf;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+/*index*/
+.widget {
+    height: 110px;
+}
+
+.navy-bg {
+    position: relative;
+    background: #5ca7f2;
+}
+
+.yellow-bg {
+    position: relative;
+    background: #62ca7b;
+}
+
+.lazur-bg {
+    position: relative;
+    background: #757fdb;
+}
+
+.logo-left {
+    position: absolute;
+    left: -5px;
+    top: -15px;
+    padding: 0 20px;
+    height: 110px;
+    z-index: 100;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.logo-left-order {
+    background: #3f8add;
+
+}
+
+.logo-left-reserve {
+    background: #606cd8;
+}
+
+.logo-left-search {
+    background: #3fba52;
+}
+
+.logo-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*modal*/
+.edit-modal-content {
+    background: #eee;
+    margin: 0 auto;
+}
+
+.edit-modal-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.edit-modal-content ul li {
+    clear: both;
+    line-height: 40px;
+    font-size: 13px;
+    height: 40px;
+    list-style: none;
+}
+
+.edit-modal-content ul li:nth-child(2n) {
+    background-color: #f3f3f3;
+}
+
+.edit-modal-content ul li:nth-child(2n+1) {
+    background-color: #f7f7f7;
+}
+
+.edit-modal-content ul li span {
+    display: inline-block;
+    padding-right: 3%;
+    width: 26%;
+    text-align: right;
+}
+
+.edit-modal-contentul li span b {
+    color: #ff0000;
+}
+
+.edit-modal-content .modal-content-left {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.edit-modal-content .modal-content-right {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.edit-modal-content ul li.remark-text {
+    height: auto;
+}
+
+.edit-modal-content ul li .remark b {
+    font-weight: normal;
+    width: 85%;
+    display: inline-block;
+}
+
+.edit-modal-content ul li .remark span {
+    width: 13%;
+    padding-right: 1.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*login*/
+.login {
+    width: 100%;
+    background: url(../../../img/img/login/tuceng92x.png) no-repeat;
+    background-size: 100%;
+}
+
+.login .top {
+    height: 50px;
+}
+
+.login .top .wrap .fl {
+    padding-left: 50px;
+}
+
+.login .top .wrap .fl img {
+    width: 38px;
+    vertical-align: middle;
+}
+
+.login .top .wrap .fl h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.login .top .wrap .fr h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 50px;
+    padding-right: 25px;
+}
+
+.login .login-content {
+    position: relative;
+    top: 50px;
+}
+
+.login h2 {
+    float: right;
+    font-size: 13px;
+    padding-right: 20px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    margin: 0;
+    line-height: 28px;
+}
+
+.login .login-content img {
+    width: 100%;
+
+}
+
+.login .login-content-wrap {
+    clear: both;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 10000000;
+}
+
+.login .login-content .login-left {
+    /*width: 53%;*/
+    position: absolute;
+    top: 0;
+
+    height: auto;
+    left: 0;
+}
+
+.login .login-content .login-right {
+    /*width: 47%;*/
+
+    position: absolute;
+    padding: 0;
+    top: 0;
+    right: 0;
+    height: auto;
+}
+
+.login .login-content .login-left .fl {
+    width: 34%;
+    margin-left: 22%;
+}
+
+.login .login-content .login-left .fr {
+    width: 39%;
+    margin-top: 4%;
+}
+
+.login .login-content .login-left .fr .fl-top {
+    font-size: 13px;
+    color: #fff;
+}
+
+.login .login-content .login-left .fr .fl-top img {
+    width: 15%;
+    vertical-align: bottom;
+}
+
+.login .login-content .login-left .fr .fl-code {
+    margin-top: 20px;
+}
+
+.login .login-content .login-left .fr .fl-code .code {
+    width: 85%;
+}
+
+.login .login-content .login-left .fr .fl-code img {
+    width: 90%;
+}
+
+.login .login-content .login-right .user-login {
+    /*width: 42%;*/
+    padding: 0;
+    background-color: #ffffff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.login .login-content .login-right .bg-img {
+
+}
+
+.login .login-content .login-right .user-login h1 {
+    text-align: center;
+    font-size: 15px;
+    color: #666666;
+    line-height: 40px;
+    font-weight: normal;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.login .login-content .login-right .user-login input.submit {
+    background-color: #3d9beb;
+    border: none;
+    margin: 0;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 0;
+    margin-left: 5%;
+}
+
+.login .login-content .login-right .user-login input {
+    width: 90%;
+    margin-left: 5%;
+    line-height: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #aaaaaa;
+    padding-left: 10%;
+
+}
+
+.login .login-content .login-right .user-login input.use-password {
+    background: url(../../../img/img/login/suo2x.png) no-repeat;
+
+    -webkit-background-size: 13px 17px;
+    background-size: 13px 17px;
+    background-position: 2% center;
+}
+
+.login .login-content .login-right .user-login input.use-name {
+
+    background: url(../../../img/img/login/ren2x.png) no-repeat;
+    -webkit-background-size: 13px 17px;
+    background-size: 13px 17px;
+    background-position: 2% center;
+}
+
+.login .login-content .login-right .user-login input.radio {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin: 0;
+    vertical-align: middle
+}
+
+.login .login-content .login-right .user-login .radio-top, .login .login-content .login-right .user-login .radio-account {
+    display: inline-block;
+}
+
+.login .login-content .login-right .user-login .login-text {
+    text-align: right;
+    padding: 0 5%;
+    margin-top: 5px;
+    color: #aaaaaa;
+    font-size: 13px;
+    width: 100%;
+}
+
+.edit-modal-content ul li:nth-child(2n+1) {
+    background-color: #f7f7f7;
+}
+
+.edit-modal-content ul li span {
+    display: inline-block;
+    padding-right: 3%;
+    width: 26%;
+    text-align: right;
+}
+
+.edit-modal-contentul li span b {
+    color: #ff0000;
+}
+
+.edit-modal-content .modal-content-left {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.edit-modal-content .modal-content-right {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.edit-modal-content ul li.remark-text {
+    height: auto;
+}
+
+.edit-modal-content ul li .remark b {
+    font-weight: normal;
+    width: 85%;
+    display: inline-block;
+}
+
+.edit-modal-content ul li .remark span {
+    width: 13%;
+    padding-right: 1.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*添加商品*/
+/*.ibox-tools{*/
+/*right: 80px;*/
+/*top: 40px;*/
+/*}*/
+.add-goods-detail {
+    width: 100%;
+}
+
+.add-goods-detail h2 {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    line-height: 40px;
+    font-size: 13px;
+    background-color: #f0f0f0;
+}
+
+.add-detail-list {
+    clear: both;
+}
+
+.add-detail-list p {
+    color: #1ab394;
+    font-size: 13px;
+    padding: 10px 0;
+    padding-left: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.add-detail-list .wrap {
+    margin: 0 13%;
+    clear: both;
+}
+
+.add-detail-list .wrap .goods-info {
+    list-style: none;
+}
+
+.add-detail-list .wrap .goods-info li {
+    /*width: 50%;*/
+    paddingg: 0;
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.add-detail-list .wrap .goods-info li span {
+    display: inline-block;
+    width: 80px;
+    color: #666666;
+}
+
+.add-detail-list .wrap ul.goods-info li.name {
+    width: 100%;
+}
+
+.add-detail-list .wrap ul.goods-info li.name span {
+    width: 80px;
+    float: inherit;
+}
+
+.add-detail-list .wrap ul.goods-info li b {
+    font-weight: normal;
+    width: 62%;
+    float: left;
+}
+
+.add-detail-list .wrap .goods-attribute {
+    margin-top: 30px;
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+.add-detail-list .wrap .goods-attribute tr th {
+    color: #17b293;
+    background-color: #f0f0f0;
+}
+
+.add-detail-list .wrap .goods-attribute tr td, .add-detail-list .wrap .goods-attribute tr th {
+    line-height: 40px;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.add-detail-list .wrap .goods-attribute tr td {
+    color: #666666;
+}
+
+.add-detail-list .wrap .goods-list .goods-list-image {
+    margin-left: 10%;
+}
+
+.add-detail-list .wrap .goods-list .goods-list-img img {
+}
+
+.add-detail-list .wrap .goods-list p {
+    color: #666666;
+    border: none;
+    padding: 0;
+}
+
+.add-detail-list .wrap .goods-list .goods-list-text p {
+    height: auto;
+    display: inline-block;
+}
+
+.add-detail-list .wrap .goods-list .goods-list-text span {
+    display: inline-block;
+    line-height: 22px;
+    color: #999999;
+}
+
+.add-detail-list .wrap .goods-list .goods-list-text img {
+    display: block;
+    float: inherit;
+    margin: 10px auto;
+}
+
+.curves {
+    background-repeat: repeat;
+    background: url(../../../img/img/index/curves2x.png);
+}
+
+.text-fonts {
+    font-size: 20px;
+}

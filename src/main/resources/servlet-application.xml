@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+       default-lazy-init="false">
+    <!-- 拦截 -->
+    <!--<mvc:interceptors>-->
+        <!--<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"/>-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/admin/**"/>-->
+            <!--<bean class="com.base.intercept.ApplicationIntercept"/>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
+
+    <bean class="com.base.common.JsonView"/>
+
+</beans>
